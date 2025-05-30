@@ -1,0 +1,58 @@
+{
+    "home": "Inicio",
+    "about": "Acerca de",
+    "portfolio":"Replace",
+    "projects": "Proyectos",
+    "project-1": "Proyecto 1",
+    "project-2": "Proyecto 2",
+    "shop": "Tienda",
+    "landing": "Página de Inicio",
+    "product-page": "Página del Producto",
+    "shopping-cart": "Carrito de Compras",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "theme-label": "Elige el tema",
+    "language-label": "Elige el idioma",
+    "languageSelect": {
+        "en": "Inglés",
+        "fr": "Francés",
+        "es": "Español"
+    },
+    "themeSelect": {
+        "accessibleLabel": "Seleccionar Tema",
+        "light": "Claro",
+        "dark": "Oscuro",
+        "auto": "Automático"
+    },
+    "quote": "Obtén una cotización gratuita",
+    "estimate": "Obtén una estimación ahora",
+    "ctaComponent": {
+        "title": "Hazlo realidad",
+        "subtitle": "Con nosotros hoy",
+        "message": "Di algo pegadizo, informativo y alentador para hacer clic en el botón e ir a la página de contacto. Me gusta agregar esto al final de todas las páginas.",
+        "cta": "Obtén una estimación ahora",
+        "alt": ""
+    },
+    "about-page": {
+        "landing": "Acerca de",
+        "topper": "Acerca de",
+        "title": "Título de la Empresa",
+        "p-1": "Nuestra empresa fue creada In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
+        "p-2": "Creemos que In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
+        "p-3": "Es importante In consequat tincidunt turpis sit amet imperdiet.",
+        "rank": "CEO-Fundador",
+        "cta": "Nuestros proyectos"
+    },
+    "footer": {
+        "information": "Información",
+        "services": "Servicios",
+        "contact": "Contacto",
+        "click": "Haz clic para enviar un correo electrónico",
+        "p": "Contenido extra si lo necesitas, si no, puedes eliminar toda esta etiqueta p. Yo suelo hacerlo.",
+        "credit": "Diseñado y codificado a mano por "
+    },
+    "notFound": {
+        "pageNotFound": "404 - La página que buscas no existe.",
+        "linkText": "Volver a la página de inicio"
+    }
+}

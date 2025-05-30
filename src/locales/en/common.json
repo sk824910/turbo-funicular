@@ -1,0 +1,60 @@
+{
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "pricing": "Pricing",
+    "projects": "Projects",
+    "project-1": "Project 1",
+    "project-2": "Project 2",
+    "shop": "Shop",
+    "landing": "Landing Page",
+    "product-page": "Product Page",
+    "shopping-cart": "Shopping Cart",
+    "blog": "Blog",
+    "contact": "Contact",
+    "theme-label": "Choisissez le thème",
+    "language-label": "Choisissez la langue",
+    "languageSelect": {
+        "en": "English",
+        "fr": "French",
+        "es": "Spanish"
+    },
+    "themeSelect": {
+        "accessibleLabel": "Select Theme",
+        "light": "Light",
+        "dark": "Dark",
+        "auto": "Auto"
+    },
+    "quote": "Get Free Quote",
+    "estimate": "Get an estimate now",
+    "ctaComponent": {
+        "title": "Accelerate Your Success",
+        "subtitle": "Transform with Brandywine",
+        "message": "Ready to innovate? Leverage our custom software consulting and web development expertise to drive growth and secure your digital future. Let’s collaborate and build something exceptional.",
+        "cta": "Get an Estimate Now",
+        "alt": ""
+    },
+    "about-page": {
+        "landing": "About",
+        "topper": "About",
+        "title": "Pioneering Software Consulting Excellence",
+        "p-1": "I'm Steve, the founder and lead consultant at Brandywine Web Services. I launched this firm with a passion for coding and a commitment to providing innovative, tailor-made software solutions that empower businesses to thrive in the digital age.",
+        "p-2": "Recognizing that many companies face challenges with outdated, one-size-fits-all solutions, we designed a flexible model that blends technical expertise with transparent, consultative partnerships. Our approach ensures each project is custom-built to meet unique business needs while remaining affordable and efficient.",
+        "p-3": "At Brandywine Web Services, we streamline the entire process—from initial discovery through design, agile development, and quality assurance—to deliver robust, scalable digital solutions that drive success. We believe technology should empower your business, and we're here to make that happen.",
+        "rank": "CEO-Founder",
+        "cta": "Our Projects"
+    },
+    "footer": {
+        "information": "Information",
+        "services": "Services",
+        "contact": "Contact",
+        "click": "Click to email",
+        "p": "",
+        "credit": "Designed and Hand Coded by "
+    },
+    "notFound": {
+        "pageNotFound": "404 - The page you're looking for does not exist.",
+        "linkText": "Back to homepage"
+    }
+}

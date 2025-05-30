@@ -1,0 +1,39 @@
+{
+    "colors": {
+      "default": {
+        "theme_color": {
+          "primary": "#1f58eb",
+          "secondary": "#BCD4FF",
+          "accent": "#E4EA8C",
+          "body": "#fff",
+          "border": "#E5E5E5",
+          "theme_dark": "#101E43",
+          "theme_light": "#F9FBFF"
+        },
+        "text_color": {
+          "default": "#2E2E2E",
+          "dark": "#000E30",
+          "light": "#565555"
+        }
+      }
+    },
+    "fonts": {
+      "font_family": {
+        "primary": "DM Sans",
+        "primary_weights": "400;500;700",
+        "primary_type": "sans-serif",
+        "secondary": "Syne",
+        "secondary_weights": "700",
+        "secondary_type": "sans-serif",
+  
+        "self_hosted_fonts": true,
+        "_comment": "Set to true to download fonts to public folder."
+      },
+      "font_size": {
+        "base": "16",
+        "type_scale": "1.29",
+        "line_height": "1.8"
+      }
+    }
+  }
+  

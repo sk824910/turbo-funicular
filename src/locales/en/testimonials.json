@@ -1,0 +1,69 @@
+{
+    "layout": {
+      "title": "Custom Solutions, Expertly Engineered",
+      "description": "Software Consulting & Web Development. Delivering fully custom, hand-crafted digital solutions designed to drive your business forward."
+    },
+    "hero": {
+      "topper": "Custom Solutions, Expertly Engineered",
+      "title": {
+        "1": "Software Consulting & Web Development",
+        "2": ""
+      },
+      "p1": "No cookie-cutter templates or off-the-shelf platforms. We deliver fully custom, hand-crafted digital solutions designed to drive your business forward. From comprehensive web development to strategic digital marketing, our tailored engagements ensure your project is built to scale, perform, and secure your competitive edge.",
+      "cta1": "Get Started",
+      "cta2": "About Us"
+    },
+    "services": [
+      {
+        "heading": "Mobile-First Development",
+        "p": "We prioritize mobile-first design, ensuring your solution delivers optimal performance and an exceptional user experience on smartphones, tablets, and desktops alike. Our lean, efficient code minimizes bloat and maximizes responsiveness."
+      },
+      {
+        "heading": "Performance-Optimized Solutions",
+        "p": "In today's fast-paced digital landscape, speed is paramount. Our solutions are engineered to load in under a second, keeping your users engaged while boosting your search engine performance."
+      },
+      {
+        "heading": "Digital Strategy & Marketing Consulting",
+        "p": "Beyond development, our experts offer guidance in SEO and PPC campaigns. We craft data-driven digital strategies that maximize ROI and drive targeted traffic to your platform."
+      }
+    ],
+    "about": {
+      "topper": "About Us",
+      "title": "Local Expertise, Global Standards",
+      "p1": "At Brandywine Web Services, we specialize in custom software consulting and web development for businesses across North America and beyond. Our team of expert developers and consultants crafts scalable, secure, and performance-optimized solutions tailored to your unique needs.",
+      "p2": "We partner with you from initial strategy through design, development, deployment, and ongoing support—ensuring your digital transformation is both seamless and successful. Every pixel and line of code is a testament to our commitment to excellence.",
+      "p3": "Choosing us means opting for a dedicated partner who understands your business goals and leverages local expertise with global standards. Together, let's create the digital story your brand deserves.",
+      "rank": "Trusted Partner",
+      "cta": "More About Us"
+    },
+    "extra": {
+      "topper": "Digital Strategy & Marketing",
+      "title": "Data-Driven Growth",
+      "p1": "Our in-house specialists craft comprehensive digital strategies, from technical SEO to targeted PPC campaigns. We ensure your online presence not only attracts traffic but also converts it into revenue.",
+      "p2": "Leverage our expertise to optimize your digital marketing efforts and gain actionable insights, propelling your business to new heights."
+    },
+    "portfolio": {
+      "topper": "Our Portfolio",
+      "title": "Innovative Solutions in Action",
+      "cta": "View Our Case Studies"
+    },
+    "reviews": {
+      "topper": "Our Reviews",
+      "title": "What Our Clients Say",
+      "p": "Our clients appreciate our commitment to excellence and transparent communication. See what they have to say about our work and the transformative impact we've made on their digital presence.",
+      "customer_reviews": [
+        {
+          "review": "The team's expertise in both development and digital strategy is unparalleled. They transformed our online presence, making it faster, more secure, and incredibly engaging.",
+          "name": "John Smith",
+          "rank": "CEO, TechCorp"
+        },
+        {
+          "review": "Their personalized approach and ongoing support have been instrumental in our digital growth. We highly recommend their consulting services.",
+          "name": "Jane Smith",
+          "rank": "Marketing Director, Innovate Inc."
+        }
+      ],
+      "cta": "Schedule a free consultation"
+    }
+  }
+  

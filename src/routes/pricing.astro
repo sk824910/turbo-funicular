@@ -1,0 +1,274 @@
+---
+import CTA from "@components/CTA.astro";
+import Landing from "@components/Landing.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { t } from "i18n:astro";
+---
+
+<BaseLayout
+  title={t("testimonials")}
+  description="Meta description for the page"
+>
+  <!-- ============================================ -->
+  <!--                    LANDING                   -->
+  <!-- ============================================ -->
+
+  <Landing title={t("testimonials")} />
+
+  <!-- ============================================ -->
+  <!--                   Gallery                    -->
+  <!-- ============================================ -->
+
+  <section id="pricing">
+    <div class="cs-container">
+      <span class="cs-topper">Pricing</span>
+      <h2 class="cs-title">
+        Choose the Pricing Plan That Fuels Your Business Goals
+      </h2>
+
+      <div class="cs-toggle-group">
+        <button class="cs-toggle cs-toggle-active">Monthly</button>
+        <button class="cs-toggle">Yearly</button>
+      </div>
+
+      <div class="cs-card-group">
+        <!-- Essentials Plan -->
+        <div class="cs-card">
+          <h3 class="cs-plan-title">Essentials</h3>
+          <p class="cs-price">
+            <span class="cs-price-amount">$200</span>
+            <span class="cs-price-cycle">/ Monthly</span>
+          </p>
+          <p class="cs-plan-desc">
+            Businesses with a basic understanding of their target audience and
+            market.
+          </p>
+          <ul class="cs-features">
+            <li>Brand Positioning Workshop</li>
+            <li>
+              Competitive Analysis 
+              <!-- <span class="cs-tag">Top 3 Competitors</span> -->
+            </li>
+            <li>Basic Market Analysis</li>
+            <li>Customer Insights & Segmentation</li>
+          </ul>
+          <!-- <a href="#" class="cs-button-solid">Order Now</a> -->
+        </div>
+
+        <!-- Growth Plan -->
+        <div class="cs-card cs-card-featured">
+          <h3 class="cs-plan-title">Growth</h3>
+          <p class="cs-price">
+            <span class="cs-price-amount">$500</span>
+            <span class="cs-price-cycle">/ Monthly</span>
+          </p>
+          <p class="cs-plan-desc">
+            Refine brand and gain a deeper understanding of the market and
+            customer base.
+          </p>
+          <ul class="cs-features">
+            <li>In-Depth Brand Positioning Workshop</li>
+            <li>
+              Competitive Analysis 
+              <!-- <span class="cs-tag">Top 5 Competitors</span> -->
+            </li>
+            <li>Comprehensive Market Analysis</li>
+            <li>Customer Insights & Segmentation</li>
+          </ul>
+          <!-- <a href="#" class="cs-button-solid">Order Now</a> -->
+        </div>
+
+        <!-- Enterprise Plan -->
+        <div class="cs-card">
+          <h3 class="cs-plan-title">Enterprise</h3>
+          <p class="cs-price">
+            <span class="cs-price-amount">$600</span>
+            <span class="cs-price-cycle">/ Monthly</span>
+          </p>
+          <p class="cs-plan-desc">
+            Get a comprehensive market research, and in-depth customer insights.
+          </p>
+          <ul class="cs-features">
+            <li>Comprehensive Brand Positioning Strategy</li>
+            <li>Full Competitive Analysis</li>
+            <li>Advanced Market Analysis</li>
+            <li>In-Depth Customer Insights</li>
+          </ul>
+          <!-- <a href="#" class="cs-button-solid">Order Now</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <CTA />
+</BaseLayout>
+
+<style lang="less">
+  /* STYLES FOR ABOVE THE FOLD */
+
+  /*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+
+  /* Mobile - 360px */
+  @media only screen and (min-width: 0em) {
+    #pricing {
+      text-align: center;
+      padding: var(--sectionPadding);
+
+      .cs-container {
+        max-width: 1104px;
+        margin: 0 auto;
+      }
+
+      .cs-topper {
+        font-weight: bold;
+        // color: var(--primary);
+        margin-bottom: 0.5rem;
+        display: block;
+      }
+
+      .cs-title {
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+        margin-bottom: 2rem;
+        // color: var(--headerColor);
+      }
+
+      .cs-toggle-group {
+        display: inline-flex;
+        gap: 0.5rem;
+        margin-bottom: 3rem;
+
+        .cs-toggle {
+          padding: 0.5rem 1.25rem;
+          border: 1px solid var(--headerColor);
+          background: var(--primary);
+          border-radius: 999px;
+          font-weight: 600;
+          cursor: pointer;
+          color: var(--headerColor);
+        }
+
+        .cs-toggle-active {
+          background: var(--primary);
+          color: #fff;
+          border: none;
+        }
+      }
+
+      .cs-card-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+      }
+
+      .cs-card {
+        background: #fff;
+        border-radius: 0.5rem;
+        box-shadow: 0 20px 39px rgba(0, 0, 0, 0.05);
+        padding: 2rem;
+        width: 100%;
+        max-width: 320px;
+        text-align: left;
+
+        .cs-plan-title {
+          font-size: 1.25rem;
+          font-weight: 700;
+          color: var(--headerColor);
+        }
+
+        .cs-price {
+          margin: 1rem 0;
+
+          .cs-price-amount {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary);
+          }
+
+          .cs-price-cycle {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--headerColor);
+            margin-left: 0.25rem;
+          }
+        }
+
+        .cs-plan-desc {
+          color: var(--bodyTextColor);
+          font-size: 0.95rem;
+          margin-bottom: 1.5rem;
+        }
+
+        .cs-features {
+          list-style: none;
+          padding: 0;
+          margin: 0 0 2rem;
+
+          li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e8e9ec;
+            font-size: 0.95rem;
+            color: var(--bodyTextColor);
+          }
+
+          .cs-tag {
+            background: var(--primaryLight);
+            color: var(--primary);
+            font-size: 0.75rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 0.25rem;
+            margin-left: 0.5rem;
+          }
+        }
+
+        .cs-button-solid {
+          display: inline-block;
+          padding: 0.75rem 1.5rem;
+          background: var(--primary);
+          color: #fff;
+          border-radius: 999px;
+          font-weight: 600;
+          text-decoration: none;
+        }
+      }
+
+      .cs-card-featured {
+        border: 2px solid var(--primary);
+      }
+    }
+  }
+  /* Tablet - 768px */
+  @media only screen and (min-width: 48em) {
+    #reviews {
+      .cs-card-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: (16/16rem);
+      }
+
+      .cs-item {
+        /* reset margin so it won't interfere with flexbox */
+        margin: 0;
+      }
+    }
+  }
+
+  /* Dark Mode */
+  @media only screen and (min-width: 0em) {
+    body.dark-mode {
+      #reviews {
+        .cs-text,
+        .cs-item-p,
+        .cs-reviewer {
+          color: var(--bodyTextColorWhite);
+        }
+
+        .cs-item {
+          background: var(--medium);
+        }
+      }
+    }
+  }
+</style>

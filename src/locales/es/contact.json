@@ -1,0 +1,16 @@
+{
+    "landing": "Contacto",
+    "topper": "Contacto",
+    "title": "Ponte en contacto",
+    "p-1": "Cuéntanos Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum ullamcorper ipsum porttitor aliquam. Id magna urna ultrices odio pulvinar. Sed ut.",
+    "form": {
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "phone": "Teléfono",
+        "how": "¿Cómo nos encontraste?",
+        "message": "Mensaje",
+        "message-placeholder": "Estoy interesado en...",
+        "address": "Dirección"
+    },
+    "cta": "Enviar mensaje"
+}

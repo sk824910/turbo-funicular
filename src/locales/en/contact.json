@@ -1,0 +1,16 @@
+{
+    "landing": "Contact",
+    "topper": "Contact",
+    "title": "Let's Connect",
+    "p-1": "Share your vision with Brandywine Web Services. We specialize in custom software consulting and innovative web development that propels your business forward. Reach out today and let's build your digital future together!",
+    "form": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "how": "How did you find us?",
+        "message": "Message",
+        "message-placeholder": "I'd be interested in...",
+        "address": "Address"
+    },
+    "cta": "Submit message"
+}

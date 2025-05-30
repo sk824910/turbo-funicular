@@ -1,0 +1,68 @@
+{
+  "layout": {
+      "title": "Sitios Web Pixel Perfect",
+      "description": "Meta descripción para la página"
+  },
+  "hero": {
+      "topper": "Kit Avanzado",
+      "title": {
+          "1": "Astro Avanzado v4",
+          "2": "i18n"
+      },
+      "p1": "Este kit avanzado incluye un entorno Astro preconfigurado, que permite componentes repetidos, datos centralizados y mayor capacidad para escalar a medida que crecen tus clientes. Este kit está especialmente diseñado para clientes que desean un sitio multilingüe y, por lo tanto, está configurado con las herramientas de internacionalización (i18n) de Astro para dos idiomas: Inglés y Francés.",
+      "cta1": "Explorar Más",
+      "cta2": "Ponte en contacto"
+  },
+  "services": [
+      {
+          "heading": "Servicio 1",
+          "p": "Habla sobre el servicio con palabras clave que las personas usarán para buscarlo. Manténlo en 1-2 oraciones."
+      },
+      {
+          "heading": "Servicio 2",
+          "p": "Habla sobre el servicio con palabras clave que las personas usarán para buscarlo. Manténlo en 1-2 oraciones."
+      },
+      {
+          "heading": "Servicio 3",
+          "p": "Habla sobre el servicio con palabras clave que las personas usarán para buscarlo. Manténlo en 1-2 oraciones."
+      }
+  ],
+  "about": {
+      "topper": "Sobre Nosotros",
+      "title": "Título de la Empresa",
+      "p1": "Nuestra empresa fue creada In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
+      "p2": "Creemos que In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
+      "p3": "Es importante In consequat tincidunt turpis sit amet imperdiet.",
+      "rank": "CEO-Fundador",
+      "cta": "Más sobre nosotros"
+  },
+  "extra": {
+      "topper": "Ranking SEO",
+      "title": "Habla sobre una palabra clave principal del servicio",
+      "p1": "Nuestro servicio principal In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
+      "p2": "La investigación muestra que In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per."
+  },
+  "portfolio": {
+      "topper": "Nuestro Portafolio",
+      "title": "Et orci volutpat, instalaciones de generadores de respaldo",
+      "cta": "Ver Nuestros Productos"
+  },
+  "reviews": {
+      "topper": "Nuestras Reseñas",
+      "title": "Palabras de nuestros clientes",
+      "p": "Nuestros clientes están In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
+      "reviews": [
+          {
+              "review": "Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor.",
+              "name": "John Doe",
+              "rank": "Propietario"
+          },
+          {
+              "review": "Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor.",
+              "name": "Jane Doe",
+              "rank": "Propietaria"
+          }
+      ],
+      "cta": "Nuestras Reseñas"
+  }
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Brandywine Web Services",
+	"email": "help@brandywinewebservices.com",
+	"phoneForTel": "856-823-9252",
+
+	"phoneFormatted": "(856) 823-9252",
+	"address": {
+		"lineOne": "2810 N. Church St",
+		"lineTwo": "#681037",
+		"city": "Wilmington",
+		"state": "DE",
+		"zip": "19802",
+		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+	},
+	"domain": "www.brandywinewebservices.com"
+}
